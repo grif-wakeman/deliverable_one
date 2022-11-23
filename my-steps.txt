@@ -175,7 +175,27 @@ branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
+touch menu.txt
+git add .
+git commit -m "Starting a menu"
 
+git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.58 KiB | 1.58 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/grif-wakeman/unit-1-git-practice.git
+To https://github.com/grif-wakeman/deliverable_one.git
+   80ee79a..5d23aa9  main -> main
+
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
